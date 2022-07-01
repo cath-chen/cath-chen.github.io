@@ -19,7 +19,7 @@ header {
 
 nav ul li {
     display: inline-block;
-    padding: 20px;
+    padding: 15px;
 }
 
 nav ul li a{
@@ -60,17 +60,20 @@ img {
 }
 
 .pic-container {
-    flex-basis: 80%;
+    flex-basis: 2250px;
 }
 
 .title-container {
     color: #2e3f59;
     font-size: 40px;
     padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
 }
 
 .text-container {
     font-size: 20px;
+    text-align: auto;
 }
 
 footer {
@@ -82,15 +85,25 @@ footer p {
     color: gray;
 }
 
-button {
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.li-button {
+    margin-left: 20px;
+}
+
+.li-button, .gh-button {
     font-size: 16px;
-    padding: 15px 32px;
+    padding: 15px 60px;
     border: none;
-    border-radius: 25px;
+    border-radius: 40px;
     background-color: lightblue;
 }
 
-button:hover {
+.li-button:hover, .gh-button:hover {
     background-color:#396cb0;
     color: white;
     transition: 0.2s;
@@ -99,4 +112,56 @@ button:hover {
 
 .nav-bar a:hover {
     color: #396cb0;
+}
+
+.sections {
+    padding: 30px 10%;
+}
+.sections h2 {
+    font-size: 30px;
+}
+
+.skills-button {
+    text-align: center;
+}
+
+.skills-btn {
+    font-size: 16px;
+    padding: 15px 60px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 40px;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.skills-btn:hover {
+    transition: 0.5s;
+    background-color: rgb(183, 183, 183)
+}
+
+.projects-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid lightgray;
+}
+
+.project-pic {
+    max-width: 40%;
+    margin-bottom: 30px;
+}
+
+.project-text {
+    margin-left: 40px;
+    line-height: 20px;
+}
+
+.project-title, .project-sub {
+    margin-bottom: 25px;
+}
+
+.project-desc {
+    line-height: 25px;
+    padding-right: 10%;
 }

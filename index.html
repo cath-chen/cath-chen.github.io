@@ -6,33 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Catherine Chen's Website</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    
-    <!--
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Poppins"
-    />
 
-    <style>
-      * {
-        margin: 0px;
-        padding: 0px;
-        font-family: "Poppins", serif;
-      }
-      header {
-        display: flex;
-        background-color: pink;
-        font-size: 15px;
-        padding: 30px 10%;
-        text-align: center;
-        justify-content: space-between;
-      }
-      nav ul li {
-        display: inline-block;
-        padding: 20px;
-      }
-    </style>
-    -->
   </head>
 
   <body>
@@ -41,14 +15,17 @@
       <nav>
         <ul class="nav-bar">
           <li><a href="./index.html"><strong>About</strong></a></li>
-          <li><a href="./projects.html"><strong>Projects</strong></a></li>
-          <li><a href="./contact.html"><strong>Contact</strong></a></li>
+          <li><a href="./index.html#skills"><strong>Skills</strong></a></li>
+          <li><a href="./index.html#projects"><strong>Projects</strong></a></li>
+          <li><a href="./catherine_chen_resume.pdf"><strong>Resume</strong></a></li>
+          <li><a href="./index.html#contact"><strong>Contact</strong></a></li>
         </ul>
       </nav>
       <!--<a class="contact" href="#"><button>Contact</button></a>-->
     </header>
     
     <main>
+      <section>
         <div class="container">
             <div class="pic-container">
                 <img src="./cat pic.JPG" alt="Catherine Chen profile picture"/>
@@ -56,17 +33,55 @@
             <div class="title-container">
                 <h2>Hi! I'm Catherine!</h2>
                 <span class="text-container">
-                    <p>I'm a third year undergraduate student at UC Davis studying computer science and human development.</p>
+                    <p>I'm a third year undergraduate student at UC Davis studying computer science and human development.
+                      I'm interested in learning about everything about tech! Currently, I am exploring topics in webscraping, data science, and web development.
+                    </p>
                 </span>
-                <div class="button">
-                    <a href="https://github.com/cathchen1"><button>GitHub</button></a>
-                    <a href="https://www.linkedin.com/in/catherine-chen-8b10b2159"><button>LinkedIn</button></a>
-                </div>
-            </div>
+              <div class="btn">
+                  <a href="https://github.com/cathchen1"><button class="gh-button">GitHub</button></a>
+                  <a href="https://www.linkedin.com/in/catherine-chen-8b10b2159"><button class="li-button">LinkedIn</button></a>
+              </div>
+          </div>
         </div>
+      </section>
     </main>
+
+    <section id="skills" class="sections">
+        <h2>My Skills</h2>
+        <div class="skills-buttons">
+          <button class="skills-btn">Python</button>
+          <button class="skills-btn">C</button>
+          <button class="skills-btn">R</button>
+          <button class="skills-btn">Git</button>
+          <button class="skills-btn">MATLAB</button>
+          <button class="skills-btn">HTML</button>
+          <button class="skills-btn">CSS</button>
+          <button class="skills-btn">Figma</button>
+          <button class="skills-btn">Canva</button>
+        </div>
+    </section>
+
+    <section id="projects" class="sections">
+        <h2>My Projects</h2>
+        <div class="projects-container">
+          <div class="project-pic">
+            <img src="Welcome.png"/>
+          </div>
+          <div class="project-text">
+            <h2 class="project-title">ReqCheq</em></h2>
+            <h3 class="project-sub"><em>HackDavis 2022</em></h3>
+            <p class="project-desc">I designed an interface using Figma for a website which returns a list of classes 
+              offered at UC Davis that students can take based on classes they have taken and prerequisite requirements.
+              I made this project with a team of four to develop a program and design a website in 24 hours.
+              We then pitched our project to judges and promoted possible the impact of our project for university students.
+              </p>
+          </div>
+
+        </div>
+    </section>
+
   </body>
   <footer>
-    <p>&copy; All rights reserved.</p>
+    <p>Copyright &copy; 2022 Catherine Chen. All rights reserved.</p>
   </footer>
 </html>
