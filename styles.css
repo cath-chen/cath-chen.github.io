@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Poppins:500');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500');
 
 * {
     margin: 0px;
@@ -164,4 +164,13 @@ footer p {
 .project-btn:hover {
     transition: 0.5s;
     background-color: rgb(7, 39, 79);
+}
+
+.contact-email, .contact-gh, .contact-linkedin {
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.contact-title {
+    margin-bottom: 20px;
 }
