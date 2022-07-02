@@ -27,32 +27,12 @@ nav ul li a{
     font-size: 20px;
 }
 
-
-
-/*
-main {
-    text-align: center;
-    display: inline;
-}
-
-main img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-*/
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 30px 10%;
+    background-color: white;
 }
   
 img {
@@ -93,25 +73,27 @@ footer p {
 
 .li-button {
     margin-left: 20px;
+    margin-right: 20px;
 }
 
-.li-button, .gh-button {
+.li-button, .gh-button, .res-button {
     font-size: 16px;
-    padding: 15px 60px;
+    padding: 15px 40px;
     border: none;
     border-radius: 40px;
-    background-color: lightblue;
+    background-color: #c5395a;
+    color: white;
 }
 
-.li-button:hover, .gh-button:hover {
-    background-color:#396cb0;
+.li-button:hover, .gh-button:hover, .res-button:hover {
+    background-color:#7b2941;
     color: white;
     transition: 0.2s;
     cursor: pointer;
 }
 
 .nav-bar a:hover {
-    color: #396cb0;
+    color: #445E93;
 }
 
 .sections {
@@ -128,7 +110,7 @@ footer p {
 .skills-btn {
     font-size: 16px;
     padding: 15px 60px;
-    margin-top: 20px;
+    margin-top: 30px;
     border: none;
     border-radius: 40px;
     margin-right: 15px;
@@ -148,8 +130,9 @@ footer p {
 }
 
 .project-pic {
-    max-width: 40%;
+    max-width: 50%;
     margin-bottom: 30px;
+    width: 4000px;
 }
 
 .project-text {
@@ -164,4 +147,21 @@ footer p {
 .project-desc {
     line-height: 25px;
     padding-right: 10%;
+}
+
+.project-btn {
+    padding: 15px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 15px;
+    display: inline-block;
+    background-color: #445E93;
+    color: white;
+    font-size: 15px;
+}
+
+.project-btn:hover {
+    transition: 0.5s;
+    background-color: rgb(7, 39, 79);
 }
