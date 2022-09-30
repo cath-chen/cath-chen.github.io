@@ -142,6 +142,7 @@ footer p {
 
 .project-title, .project-sub {
     margin-bottom: 25px;
+    line-height: 25px;
 }
 
 .project-desc {
